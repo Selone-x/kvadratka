@@ -1,0 +1,10 @@
+[project]
+name = "kvadratka"
+version = "0.1.0"
+description = "Решение квадратных уравнений"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
